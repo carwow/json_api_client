@@ -6,7 +6,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require 'json_api_client/version'
 
 Gem::Specification.new do |s|
-  s.name = "json_api_client"
+  s.name = "carwow-json_api_client"
   s.version = JsonApiClient::VERSION
   s.description = 'Build client libraries compliant with specification defined by jsonapi.org'
   s.summary = 'Build client libraries compliant with specification defined by jsonapi.org'
@@ -23,9 +23,9 @@ Gem::Specification.new do |s|
 
   s.license = "MIT"
 
-  s.author = "Jeff Ching"
-  s.email = "ching.jeff@gmail.com"
-  s.homepage = "http://github.com/chingor13/json_api_client"
+  s.authors = ["Jeff Ching", "carwow"]
+  s.email = "developers@carwow.co.uk"
+  s.homepage = "http://github.com/carwow/json_api_client"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir.glob('test/*_test.rb')

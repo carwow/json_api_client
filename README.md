@@ -1,8 +1,9 @@
-# JsonApiClient [![Build Status](https://travis-ci.org/JsonApiClient/json_api_client.png)](https://travis-ci.org/JsonApiClient/json_api_client) [![Code Climate](https://codeclimate.com/github/JsonApiClient/json_api_client.png)](https://codeclimate.com/github/JsonApiClient/json_api_client) [![Code Coverage](https://codeclimate.com/github/JsonApiClient/json_api_client/coverage.png)](https://codeclimate.com/github/JsonApiClient/json_api_client)
+# JsonApiClient [![Build Status](https://travis-ci.org/carwow/json_api_client.png?branch=master)](https://travis-ci.org/carwow/json_api_client) [![Code Climate](https://codeclimate.com/github/carwow/json_api_client.png)](https://codeclimate.com/github/carwow/json_api_client) [![Code Coverage](https://codeclimate.com/github/carwow/json_api_client/coverage.png)](https://codeclimate.com/github/carwow/json_api_client)
 
 This gem is meant to help you build an API client for interacting with REST APIs as laid out by [http://jsonapi.org](http://jsonapi.org). It attempts to give you a query building framework that is easy to understand (it is similar to ActiveRecord scopes).
 
-*Note: master is currently tracking the 1.0.0 specification. If you're looking for the older code, see [0.x branch](https://github.com/JsonApiClient/json_api_client/tree/0.x)*
+> NOTE: At carwow, we are committed to the open source community and our contributions will be published to the original gem and main repository as usual, but in the meantime we need to publish a new gem to carry on with our work.
+> We are not the official maintainers for `json_api_client` gem, but we are happy to contribute to the OS community with this fork.
 
 ## Usage
 
@@ -661,7 +662,7 @@ end
 ### Safe singular resource fetching
 
 That is a bit curios, but `json_api_client` returns an array from `.find` method, always.
-The history of this fact was discussed [here](https://github.com/JsonApiClient/json_api_client/issues/75)
+The history of this fact was discussed [here](https://github.com/carwow/json_api_client/issues/75)
 
 So, when we searching for a single resource by primary key, we typically write the things like
 
@@ -702,4 +703,4 @@ required. The commits will be squashed into master once accepted.
 
 ## Changelog
 
-See [changelog](https://github.com/JsonApiClient/json_api_client/blob/master/CHANGELOG.md)
+See [changelog](https://github.com/carwow/json_api_client/blob/master/CHANGELOG.md)
